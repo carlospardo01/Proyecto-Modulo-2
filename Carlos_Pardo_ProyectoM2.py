@@ -7,7 +7,7 @@ Palabra = input("Por favor introduce una Palabra entre 4 y 8 dígitos: ").strip(
 #Se agrega un While por seguridad para que coloquen un dato válido
 while not Palabra:
     Palabra = input("Por favor introduce una Palabra entre 4 y 8 dígitos: ").strip()
-# se usa un condicional para verificar que la palabra dada por el usuario esté entre el rango de 4 a 8 caracteres y se imprime el mensaje correspondiente
+# se usa la función if como condicional para verificar que la palabra dada por el usuario esté entre el rango de 4 a 8 caracteres y se imprime el mensaje correspondiente
 if len(Palabra) < 4:
     print(f"Intenta de nuevo, La Palabra '{Palabra}' tiene {len(Palabra)} caracteres y debe ser mayor a 4 caracteres")
 elif len(Palabra)>8:
@@ -19,7 +19,7 @@ else :
 
 ### Ejercicio 2. Encuentra el cuadrante ###
 
-#Se usa condicional while para garantizar que el dato que se pide sea el correcto
+#Se usa función while para garantizar que el dato que se pide sea el correcto
 while True:
     #Se usa la función try: para revisar si el código a usar puede generar un error
     try:
@@ -35,7 +35,7 @@ while True:
     except ValueError:
         print("Por favor, introduce un número entero válido.")
 
-#Se usa condicional while para garantizar que el dato que se pide sea el correcto
+#Se usa función while para garantizar que el dato que se pide sea el correcto
 while True:
     #Se usa la función try: para revisar si el código a usar puede generar un error
     try:
