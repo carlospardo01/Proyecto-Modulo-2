@@ -64,6 +64,6 @@ elif x <=-1 and y <=-1:
 #Cuadrante IV: (X, Y): (+, -)
 elif x >=1 and y <=-1:
     print(f"La cordenada {x},{y} pertenece al cuadrante IV.")
-#Esta función se usa en caso de no pertenecer a ningun cuadrante si no se tuviera la condición de que el valor de X o Y sea diferente a 0
+#Esta función se usa en caso de no pertenecer a ningun cuadrante, si no se tuviera la condición de que el valor de X o Y sea diferente a 0 se usaría para decir que elguno de los datos está en el origen.
 else:
     print("La coordenada no pertenece a ningún cuadrante.")
